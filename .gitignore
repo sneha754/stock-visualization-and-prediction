@@ -1,0 +1,8 @@
+# Ignore virtual environments and cache
+myenv/
+__pycache__/
+
+# Ignore system-specific files
+*.pyc
+.DS_Store
+.env
