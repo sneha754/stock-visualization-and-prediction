@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: 0;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    color: #2d073b;
+    font-size: 15px;
+    background-color: #eee0ee;
+
+}
+
+.name {
+    font-size: 1.5rem;
+    padding-top: 1.8vh;
+    margin-left: 1.6vw;
+    margin-bottom: 2vh;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.stock-input-1 {
+    display: flex;
+    align-self: center;
+    color: rgb(221, 219, 219);
+    margin-bottom: 3vh;
+}
+
+.stock-input {
+    margin-left: 1vw;
+    /* background: rgba(237, 235, 235, 0.4); */
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    color: #333;
+    /* -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5); */
+    margin-bottom: 1.5vh;
+}
+
+::-webkit-input-placeholder {
+    color: #000000;
+}
+
+:-moz-placeholder {
+    color: #000000;
+}
+
+::-moz-placeholder {
+    color: #000000;
+}
+
+:-ms-input-placeholder {
+    color: #000000;
+}
+
+#submit-button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #E4002B;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+#submit-button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.date-input {
+    height: 2vw;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-bottom: 3vw;
+}
+
+.DateRangePickerInput {
+    border: 2px solid #dad0d0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.DateRangePickerInput input {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.DateRangePickerInput input:focus {
+    border: 2px solid #0056b3;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:hover {
+    background: #007BFF;
+    border: 1px double #007BFF;
+    color: white;
+}
+
+.CalendarDay__hovered_span,
+.CalendarDay__hovered_span:hover {
+    background: #d9eaff;
+    border: 1px double #b2d4ff;
+    color: black;
+}
+
+.selectors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.selectors button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #E4002B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectors button:hover {
+    background-color: #BA0C2F;
+}
+
+.selectors input {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.content .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+  
+.content .logo {
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+  
+.content .company-name {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+  
+.content #description {
+   width: 80%;
+   height: 10%;
+   padding: 20px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: Georgia;
+   line-height: 150%;
+}
+  
+#graphs-content, #main-content, #forecast-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+  
+.content {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+ 
